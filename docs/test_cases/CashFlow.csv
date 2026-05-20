@@ -1,0 +1,21 @@
+Test Case ID,Description,CF0,C01,F01,C02,F02,C03,F03,C04,F04,Discount Rate,Expected NPV,Expected IRR,Expected NFV,Expected PB,Expected DPB,Expected MOD,Notes
+CF001,Basic NPV calculation,-7000,3000,1,5000,4,4000,1,,,20,7266.44,52.71,21697.47,2.00,2.60,35.12,Standard test case from TI manual
+CF002,Simple investment,-10000,3000,1,4000,1,5000,1,,,10,-355.25,8.88,,,,,Negative NPV indicates bad investment
+CF003,Zero NPV case,-5000,1000,5,,,,,,,,,IRR when NPV equals zero
+CF004,Multiple IRR test,-1000,500,1,200,1,300,1,400,1,,,,,,,Cash flow with sign changes
+CF005,Large project,-100000,25000,1,30000,1,35000,1,40000,1,12,8799.21,14.66,,,,,Corporate project evaluation
+CF006,Real estate investment,-250000,15000,1,18000,1,22000,1,280000,1,8,42685.33,10.24,,,,,Property investment
+CF007,Equipment purchase,-50000,12000,5,,,,,,10,-4559.12,6.42,,,,,Equipment with uniform cash flows
+CF008,Startup investment,-200000,0,2,50000,1,100000,1,200000,1,15,27326.45,12.78,,,,,Startup with delayed returns
+CF009,Annuity comparison,-10000,2500,4,,,,,,6,-1349.48,7.71,,,,,Compare annuity options
+CF010,Bond equivalent,-950,40,2,40,2,1040,1,,,5,0.00,5.27,,,,,Bond pricing via cash flows
+CF011,Mutual fund,-10000,500,1,600,1,700,1,800,1,7,-7152.48,-5.22,,,,,Negative return investment
+CF012,Venture capital,-500000,0,3,100000,1,200000,1,500000,1,20,52344.32,10.38,,,,,High-risk venture
+CF013,Savings plan,-1000,100,12,,,,,,3,132.14,,,,,,Regular monthly savings
+CF014,Insurance product,-20000,0,5,50000,1,,,,4,-2885.45,4.14,,,,,Deferred annuity
+CF015,Lease vs buy,-30000,8000,1,8500,1,9000,1,9500,1,6,623.45,8.92,,,,,Lease analysis
+CF016,Tax shield benefit,-80000,20000,1,22000,1,24000,1,26000,1,10,8225.67,11.23,,,,,After-tax cash flows
+CF017,Expansion project,-150000,40000,1,45000,1,50000,1,55000,1,9,27845.12,13.45,,,,,Business expansion
+CF018,Refinancing decision,-50000,15000,1,15000,1,15000,1,15000,1,7,3612.45,7.71,,,,,Cost savings analysis
+CF019,R&D project,-200000,0,2,50000,1,80000,1,120000,1,10,6234.56,8.92,,,,,Research investment
+CF020,Franchise opportunity,-75000,15000,1,18000,1,22000,1,25000,1,11,12456.78,14.23,,,,,Franchise ROI

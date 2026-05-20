@@ -1,0 +1,43 @@
+# Xcode
+*.xcodeproj
+*.xcworkspace
+*.swiftpm/xcode
+*.xcodeproj/
+*.xcworkspace/
+DerivedData/
+*.hmap
+*.ipa
+*.dSYM.zip
+
+# Swift
+.build/
+.swiftpm/
+Packages/
+.swift-version
+
+# Carthage
+Carthage/Build/
+
+# CocoaPods
+Pods/
+
+# IDE
+.vscode/
+.idea/
+*.swo
+*.swp
+
+# OS
+.DS_Store
+._*
+
+# Secrets (never commit these)
+*.pem
+*.p12
+*.key
+secrets/
+.env
+.env.*
+
+# Logs
+*.log

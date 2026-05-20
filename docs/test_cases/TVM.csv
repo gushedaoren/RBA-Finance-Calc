@@ -1,0 +1,21 @@
+Test Case ID,Description,N,I/Y,PV,PMT,FV,P/Y,C/Y,Mode,Expected Result,Result Variable,Notes
+TVM001,Basic mortgage payment,360,5.5,75000,,0,12,12,END,-425.84,PMT,30-year mortgage monthly payment
+TVM002,BGN mode annuity,20,0.5,-5000,,0,4,4,BGN,-1279.82,PMT,Quarterly payment at beginning
+TVM003,P/Y not equal C/Y,120,0.5,25000,,25000,12,4,BGN,-203.13,PMT,Monthly payment quarterly compounding
+TVM004,Future value calculation,120,7.5,-200,0,,12,12,END,43219.37,FV,Monthly savings future value
+TVM005,Present value calculation,48,6,,,-500,12,12,END,21139.48,PV,Loan present value
+TVM006,Interest rate calculation,360,,75000,-425.84,0,12,12,END,5.5,I/Y,Solve for interest rate
+TVM007,Number of periods calculation,,8,-10000,-200,0,12,12,END,63.02,N,Solve for number of periods
+TVM008,Zero interest rate,120,0,10000,,0,12,12,END,-83.33,PMT,Zero interest special case
+TVM009,Single payment FV,5,10,-1000,0,,1,1,END,1610.51,FV,Single lump sum investment
+TVM010,Single payment PV,10,8,,0,5000,1,1,END,-2315.25,PV,Present value of future amount
+TVM011,Amortization test case 1,360,5.5,75000,-425.84,0,12,12,END,73847.02,BAL,Balance after 12 periods (P1=1,P2=12)
+TVM012,Amortization principal,360,5.5,75000,-425.84,0,12,12,END,1152.98,PRN,Principal paid periods 1-12
+TVM013,Amortization interest,360,5.5,75000,-425.84,0,12,12,END,3957.10,INT,Interest paid periods 1-12
+TVM014,Car loan monthly,60,6.5,25000,,0,12,12,END,-487.45,PMT,5-year car loan
+TVM015,Student loan,120,4.5,35000,,0,12,12,END,-363.09,PMT,10-year student loan
+TVM016,Retirement savings,240,7,0,-500,,12,12,END,260727.78,FV,20-year monthly savings
+TVM017,Reverse mortgage,180,5,100000,0,,12,12,END,-263797.46,FV,15-year reverse mortgage
+TVM018,Lease payment,36,8,30000,,15000,12,12,END,-515.17,PMT,3-year lease with residual
+TVM019,Bond price from yield,40,8,-1020,40,1000,2,2,END,0,I/Y,Semiannual bond yield
+TVM020,Effective rate test,12,12,10000,0,11268.25,12,12,END,,FV,Effective annual rate verification
