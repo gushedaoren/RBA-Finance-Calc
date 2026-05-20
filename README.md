@@ -18,7 +18,7 @@
 This library is the **calculation engine only**. For the complete iOS app with TI-style UI,
 haptic feedback, exam-optimized workflow, and all 12 worksheets:
 
-**→ [RBA 金融计算器 on App Store](https://apps.apple.com/app/1545331477)**
+**→ [RBA 金融计算器 on App Store](https://apps.apple.com/app/id1545331477)**
 
 ---
 
@@ -233,7 +233,7 @@ This is the **calculation engine only**. The full app includes:
 - Dark mode support
 - Offline-first, no internet required
 
-**→ [Download on App Store](https://apps.apple.com/app/1545331477)**
+**→ [Download on App Store](https://apps.apple.com/app/id1545331477)**
 
 ## License
 
