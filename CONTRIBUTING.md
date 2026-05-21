@@ -36,4 +36,4 @@ Opening a GitHub Issue:
 
 ## Questions?
 
-Open an issue or reach out at [our App Store](https://apps.apple.com/us/app/id1545331477).
+Open an issue or reach out at [our App Store](https://apps.apple.com/cn/app/id1545331477).
